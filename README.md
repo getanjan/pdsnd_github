@@ -1,15 +1,23 @@
 ### Date created
-Include the date you created this project and README file.
+April 12 2020.
 
 ### Project Title
-Replace the Project Title
+Us-BikeShare using python.
 
 ### Description
-Describe what your project is about and what it does
+In this project, Will make use of Python to explore data related to bike share systems for three major cities in the United States: Chicago, New York City, and Washington
 
 ### Files used
-Include the files used
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+UDACITY Lessons 
+https://stackoverflow.com/
+https://pandas.pydata.org/pandas-docs/stable/generated/pandas.Series.dt.html
+https://pandas.pydata.org/pandas-docs/stable/generated/pandas.Series.dt.dayofweek.html
+https://stackoverflow.com/questions/775049/how-to-convert-seconds-to-hours-minutes-and-seconds
+https://docs.python.org/3/library
+https://stackoverflow.com/questions/19377969/combine-two-columns-of-text-in-dataframe-in-pandas-python
 
