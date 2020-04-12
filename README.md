@@ -11,6 +11,7 @@ In this project, Will make use of Python to explore data related to bike share s
 chicago.csv
 new_york_city.csv
 washington.csv
+The aboves file are not pushed to git repository due to file size constrain. These files are listed in .gitingnore.
 
 ### Credits
 UDACITY Lessons 

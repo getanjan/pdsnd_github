@@ -10,7 +10,7 @@ import time
 
 
 def get_city():
-    '''Asks the user for a city anfd returns the filename for that city's bike share data.
+    '''Asks the user for a city and returns the filename for that city's bike share data.
     Args:
         none.
     Returns:
