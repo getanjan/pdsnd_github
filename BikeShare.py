@@ -40,8 +40,8 @@ def get_time_period():
     '''
     time_period = ''
     while time_period.lower() not in ['month', 'day', 'none']:
-        time_period = input('\nWould you like to filter the data by month, day,'
-                            ' or none ? \n')
+        time_period = input('\nWould you like to filter the data by month, day'
+                            ' ? \n')
         if time_period.lower() not in ['month', 'day', 'none']:
             print('Sorry, I do not understand your input.')
     return time_period
@@ -220,8 +220,8 @@ def birth_years(df):
           '\nThe most popular birth year is {}.'.format(earliest, latest, mode))
 
 def display_data(df):
-    '''Displays five lines of data if the user specifies that they would like to.
-    After displaying five lines, ask the user if they would like to see five more,
+    '''Displays six lines of data if the user specifies that they would like to.
+    After displaying six lines, ask the user if they would like to see six more,
     continuing asking until they say stop.
     Args:
         data frame
@@ -234,7 +234,7 @@ def display_data(df):
         else:
             return False
     head = 0
-    tail = 5
+    tail = 6
     valid_input = False
     while valid_input == False:
         display = input('\nWould you like to view individual trip data? '
